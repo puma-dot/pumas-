@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Personal</title>
+    <style>
+        /* Estilos globales */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Secciones generales con colores */
+        section {
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #inicio {
+            background-color: #e7f3fe;
+            /* Azul claro */
+        }
+
+        #bibliografia {
+            background-color: #f9e79f;
+            /* Amarillo claro */
+        }
+
+        #habilidades {
+            background-color: #d5f5e3;
+            /* Verde claro */
+        }
+
+        #proyectos {
+            background-color: #f5b7b1;
+            /* Rojo claro */
+        }
+
+        #contacto {
+            background-color: #d6eaf8;
+            /* Azul suave */
+        }
+
+        section h2 {
+            color: #4CAF50;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Proyectos */
+        .proyecto {
+            margin-bottom: 20px;
+        }
+
+        .proyecto h3 {
+            margin-bottom: 5px;
+        }
+
+        /* Formulario de Contacto */
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input,
+        textarea {
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+            width: 100%;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        input[type="submit"] {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        /* Estilos responsivos */
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                text-align: center;
+                margin: 5px 0;
+            }
+
+            section {
+                margin: 10px;
+                padding: 15px;
+            }
+
+            form {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            nav ul li a {
+                font-size: 1em;
+            }
+
+            input,
+            textarea {
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Encabezado y navegación -->
+    <header>
+        <h1>ADMINISTRADOR DE EMPRESAS</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#bibliografia">Bibliografía</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio -->
+    <section id="inicio">
+        <h2>Bienvenido</h2>
+
+
+        <img src="imganen/00a130a8-447f-4fa7-8aee-f55c1c091647.jpg" alt="Descripción de la imagen"
+            style="max-width: 20%; height: auto;">
+
+
+        <p>Hola, soy [brian puma ], y esta es mi página web personal. Aquí puedes conocer más sobre mí, mis habilidades,
+            proyectos y cómo contactarme.</p>
+    </section>
+
+    <!-- Sección de Bibliografía -->
+    <section id="bibliografia">
+
+        <h2>Bibliografía</h2>
+        <p>Soy [brian puma], un [administrador]. He estudiado en [univercidad peruana union ] y tengo experiencia en
+            [negosios internacionales]. He trabajado en proyectos relacionados con [importacion y exportacion] y siempre
+            estoy aprendiendo nuevas habilidades para mejorar mi desempeño profesional.</p>
+    </section>
+
+    <!-- Sección de Habilidades -->
+    <section id="habilidades">
+        <section id="inicio">
+            <h2>Bienvenido</h2>
+            <img src=".jpg" alt="Descripción de la imagen" style="max-width: 100%; height: auto;">
+
+
+            <h2>Habilidades</h2>
+            <ul>
+                <li>marketing (digital, empresarial, comercial)</li>
+                <li>idiomas aprendios: ingles, frances, chino mandarin</li>
+                <li>planificacion y organizacion </li>
+                <li>liderazgo</li>
+                <li>Gestión de Proyectos</li>
+            </ul>
+        </section>
+
+        <!-- Sección de Proyectos -->
+        <section id="proyectos">
+            <section id="proyectos">
+
+
+
+                </div>
+            </section>
+
+            <h2>Proyectos</h2>
+            <div class="proyecto">
+                <h3>Proyecto 1: IMPORTACIONES</h3>
+                <p>Este proyecto es un portafolio digital que muestra mis trabajos y logros. Realizados a lo largo de mi
+                    trayectoria como profecional, para crear una experiencia interactiva para los usuarios.</p>
+                <iframe width="800" height="520" src="https://www.youtube.com/embed/5Rsha3I-cYo"
+                    title="Introducción a la Administración | Conceptos" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="proyecto">
+                <h3>Proyecto 2: EXPORTACIONES</h3>
+                <p>Desarrollé un sistema de gestión utilizando miz habilidades y conocimientos para una empresa local.
+                    Este proyecto permitió automatizar varios procesos, mejorando la eficiencia de la empresa.</p>
+                <iframe width="800" height="520" src="https://www.youtube.com/embed/wGdDh_iu2EE"
+                    title="¿Cómo funciona el proceso de exportación?" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- Sección de Contacto -->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="mailto:tucorreo@example.com" method="post" enctype="text/plain">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                section>
+
+                <!-- Pie de página -->
+                <footer>
+                    <p>&copy; 2024 Mi Página Personal - Diseñado por [Tu Nombre]</p>
+                </footer>
+</body>
+
+</html>
+
+
+<label for="email">Correo electrónico:</label>
+<input type="email" id="email" name="email" required>
+
+<label for="mensaje">Mensaje:</label>
+<textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+<input type="submit" value="Enviar">
+</form>
+</
